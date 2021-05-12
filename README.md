@@ -11,7 +11,8 @@ This Docker container implements a Sonarqube Server.
 You can download the image with the following command:
 
 ```bash
-docker pull paperinik/rpi-sonarqube
+## Build with Lastest Version.
+docker build --build-arg SONAR_VERSION=8.9.0.43852 -t ghazanfar9131/rpi-sonarqube .
 ```
 
 # How to use this image
